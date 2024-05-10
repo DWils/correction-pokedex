@@ -1,0 +1,25 @@
+#pokemon-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  border: 2px solid black;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card img{
+  width: 80%;
+}
+
+h4{
+  border-radius : 30%;
+  background-color: #aaa;
+  padding: 5px 20px;
+}
